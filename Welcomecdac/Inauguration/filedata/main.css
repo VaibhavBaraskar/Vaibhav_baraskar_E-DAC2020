@@ -1,0 +1,70 @@
+body{
+    font-family: 'Montserrat' !important;
+    height: 100vh;
+    margin: 0;
+    color: rgb(49, 49, 49) !important;
+}
+
+.main-area{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    height: 100%;
+}
+
+.left-panel{
+    background-image: url("./images/devi.jpeg");
+    background-size: cover;
+}
+.left-panel img{
+}
+
+.right-panel{
+    
+    background: linear-gradient(rgb(238, 223, 111), rgba(25, 119, 191, 1));
+    /*
+    background: linear-gradient( #0063B2FF, #9CC3D5FF);
+    */
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+}
+.logo-section h1{
+    font-size: 45px;
+}
+.logo-section sub{
+    font-size: 25px;
+}
+.main-logo{
+    border-radius: 50%;
+    height: 200px;
+}
+.logo-section{
+    display:  flex;
+    align-items: center;
+}
+.logo-section > *{
+    margin-left: 1em;
+    
+    margin-right: 1em;
+}
+
+.right-panel h1{
+    font-size: 35px;
+}
+.right-panel p {
+    font-weight: 400;
+}
+.lamp{
+    height: 300px;
+}
+.btn-section{
+}
+.btn-section button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
