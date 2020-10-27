@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>body{
+        background-color: white;
+      
+    }
+    img {
+        
+        background-position: center;
+    width:20%;
+    float:left; 
+    margin-top: 50px;
+     margin-left: 175px;
+}
+h1{
+    margin-left: 250px;
+    font-size: 80px;
+}
+button{
+     padding: 50px 100px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+.contrast { filter: contrast(160%); }
+    </style>
+</head>
+<body>
+    <h1> Welcome To E-DAC 2020 Mumbai (Kharghar & Juhu) </h1>
+
+
+<script>
+function light(value){
+    var pic;
+    if(value==0){
+        pic="E://Module1/inogration/F2.png";
+    }else{
+        pic="E://Module1/inogration/F1.png";
+    }
+    document.getElementById('bulb').src=pic;
+}
+
+</script>
+
+
+    <img id="bulb"  src="E://Module1/inogration/F2.png" class="brightness"> 
+    
+    <button onclick="light(1)"> Turn on </button>
+   
+
+</body>
+</html>

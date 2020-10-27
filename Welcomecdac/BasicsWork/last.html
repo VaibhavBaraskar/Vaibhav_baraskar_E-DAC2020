@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>body{
+        background-color: white;
+      
+    }
+    .diva{
+       height: 350px;
+       
+        background-position: center;
+    width:20%;
+    float:left; 
+    margin-top: 50px;
+     margin-left: 180px;
+     width: auto;
+}
+.devi{   background-position: center;
+size: 200px 300px;
+    width:20%;
+    float:left; 
+    margin-top: 0px;
+    margin-left: 100px;
+
+}
+.cdac{
+    background-position:right;
+size: 50px 50px;
+    width:20%;
+    float:left; 
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.p{ margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    font-size: 80px;
+    
+}
+.q{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    font-size: 80px;
+}
+
+
+.a{
+    padding: 10px 20px;
+
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.w{
+    padding: 10px 20px;
+
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+    margin-top: 15px;
+    margin-left: 150px;
+
+}
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="p"> Welcome To E-DAC 2020 Mumbai </h1>
+    <h1 class="q"><i>(Kharghar & Juhu)</i></h1>
+
+
+<script>
+function light(value){
+    var pic;
+    if(value==0){
+        
+        pic="E://Module1/inogration/a.jpeg";
+    }else if(value==1){
+        pic="E://Module1/inogration/L1.jpg";
+    }else if(value==2){
+        
+        pic="E://Module1/inogration/L2.jpg";
+    }
+    else if(value==3){
+        
+        pic="E://Module1/inogration/L3.jpg";
+    }
+    else if(value==4){
+        
+        pic="E://Module1/inogration/L4.jpg";
+    }else if(value==5){
+        
+        pic="E://Module1/inogration/L5.jpg";
+    }
+    
+    document.getElementById('bulb').src=pic;
+}
+
+</script>
+<div><img id="kk"  src="E://Module1/inogration/devi.jpeg" class="devi"> 
+    <img id="bulb"   src="E://Module1/inogration/a.jpeg" class="diva"> 
+    <img id="mm"  src="E://Module1/inogration/c2.png" class="cdac"> 
+</div>
+   <br><br>
+    <div> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> 
+    <button onclick="light(1)" class="a"> Turn on 1</button>
+    <button onclick="light(2)" class="a"> Turn on 2</button>
+    <button onclick="light(3)" class="w"> Turn on 3</button>
+    <button onclick="light(4)" class="w"> Turn on 4</button>
+    <button onclick="light(5)" class="w"> Turn on 5</button>
+</div>
+</body>
+</html>
