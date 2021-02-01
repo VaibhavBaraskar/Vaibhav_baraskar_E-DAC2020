@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="">
+    <style>
+       *,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(bottom,#dcbc95,#2D3034);
+    font-family: 'Nunito',sans-serif;
+}
+
+
+    </style>
+</head>
+<body>
+    
+
+
+
+<script>
+    $(window).on('scroll', function () {
+var scrollPos = $(window).scrollTop()
+var winHeight = $(window).height()
+var docHeight = $(document).height()
+var perc = 100 * scrollPos / (docHeight - winHeight)
+$('#indicator').width(perc + '%')
+});
+    </script>
+</body>
+</html>
