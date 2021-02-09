@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+    <title>Vaibhav Resume</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+
+    <!-- 
+    <style>
+    h1{
+        color: blanchedalmond;
+    }
+
+    .h1{
+        color: rgb(235, 255, 124);
+        font-size: 20px;
+        background-color:rgba(51, 26, 0, 0.80);
+        
+    }
+
+    .h2{
+        color: rgb(247, 253, 211);
+        font-size: 20px;
+    }
+
+    .heading_back{
+        background-color: rgba(0, 0, 255, 0.383);
+    }
+
+    .back_color{
+        background-color: rgba(51, 26, 0, 0.80);
+        color: blanchedalmond;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    a:link {
+        color:yellow;
+    }
+    a:hover {
+        color: white;
+    }
+
+    /* table {
+        border-collapse: collapse;
+    } */
+</style> -->
+</head>
+
+<body background="bg.jpg">
+    <h1 align="center"><u>RESUME</u></h1>
+    
+    
+    <br>
+    <table border="0%" width="100%">
+        
+		<tr rowspan=3>
+            <td width="4%">&nbsp</td>
+
+            <td width="20%" class="back_color"><p><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <img alt="Vaibhav passport image" src="a.jpg" width="130" height="168"></p>
+              <p><br>
+              </p></td>
+
+            <td width="2%"></td>
+
+            <th width="50%" class="h1"><font size="7">Vaibhav Baraskar</font><br>
+			<font size="5">CDAC, Mumbai</font>
+			</th>
+
+            <td width="5%"></td>
+        </tr>
+		
+		
+		
+        <tr>
+            <td></td>
+			
+            <td bgcolor="#331a00" class="back_color">
+                <ul><br>
+				<font class="heading_back"><b>&nbsp <u>CONTACT:</u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></font>
+                <br>
+				<br><img src="phone.jpg" alt="Phone" width="22" height="16">&nbsp&nbsp 7058091900</li>
+                <br><a href="mailto: vaibhavbaraskar51@gmail.com"><img src="mail.jpg" alt="Mail" width="23" height="15"></a>
+				&nbsp&nbsp<a href="mailto: vaibhavbaraskar51@gmail.com">vaibhavbaraskar51@gmail.com</a></li>
+                <br><img src="add.jpg" alt="Address" width="23" height="15"></a>&nbsp Aurangabad, Maharashtra, 431001</li>
+			</ul>
+			</td>
+			
+            <td width="0%"></td>
+			
+            <td class="h2" rowspan=2>
+                <fieldset>
+                    <legend>
+                        <h2><u>Profile:</u></h2>
+                    </legend>
+                        Seeking a beginner role to enhance and explore my technical knowledge gained at CDAC, Mumbai in the six months.
+                    Strong in design and integration with intuitive problem-solving skills. Proficient in JAVA, HTML, CSS, JAVASCRIPT,
+                    and SQL. Passionate about implementing and launching new projects. Ability to translate business
+                    requirements into technical solutions.
+                    </fieldset>	
+
+            <fieldset>
+                <legend>
+            <h2><u>Technical Experties:</u></h2>
+            </legend>
+
+			<table border="0" width="100%" class="h2">
+			
+			<tr>
+				<td width="2">
+					<li>Programming Languages:</li>
+				</td>
+				<td>
+					Core Java, C, C++.
+				</td>
+			</tr>
+			<tr>
+				</td>
+				<td>
+                    <li>Database:</li>
+				</td>
+				<td>
+					MySQL, MongoDB.
+				</td>
+			</tr>
+			</tr>
+			<tr>
+				<td>
+                    <li>Web Technology:</li>
+				</td>
+				<td>
+					HTML, CSS, JavaScript.
+				</td>
+			</tr>
+			<tr>
+				<td>
+                    <li>IDE's:</li>
+				</td>
+				<td>
+					Eclipse, NetBeans, VS Code.
+				</td>
+			</tr>
+			
+			</table>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+            <h2><u>Personal & Professional Skills:</u></h2>
+            </legend>
+            <ol>
+                <li>Focused.</li>
+                <li>Team Worker.</li>
+                <li>Self-Confident.</li>
+                <li>Adaptability and ability to work well under pressure.</li>
+                </ol>
+        </td>
+        </tr>
+		
+		
+		
+        <tr>
+            <td></td>
+			
+            <td bgcolor="#331a00" class="back_color">
+			<ul>
+            <font class="heading_back"><b>&nbsp <u>EDUCATION:</u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp</b></font>
+			</ul>
+            <ol>
+				<li><b>Bachelor of Engineering</b></li>
+                <ul type="disc">
+				<li>Electronics and Telecommunication</li>
+                <li>MES College of Engineering</li>
+                <li>Wadia Campus ,Pune.</li><br>
+				</ul>
+			
+				</ul>
+                
+				<li><b>Senior Secondary</b></li>
+                <ul type="disc">
+				<li>Science & Maths</li>
+                <li>Kulbhushan college ,Aurangabad</li>
+                <li>State Board<br></li>
+         <li><b>Secondary</b></li>
+                <ul type="disc">
+				<li>Science & Maths</li>
+                <li>Swami Vivekananand Academy ,Aurangabad</li>
+                <li>State Board<br></li>
+				</ul>
+            </ol>
+			</td>
+			
+        </tr>
+		
+    </table>
+</body>
+</html>
